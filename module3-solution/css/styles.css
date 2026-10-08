@@ -1,0 +1,53 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #fff;
+}
+
+/* Navbar Styling */
+.navbar-default {
+  background-color: #f8f8f8;
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333 !important;
+}
+
+/* Mobile Dropdown Menu Styling */
+.navbar-collapse {
+  background-color: #f2f2f2;
+}
+
+.navbar-nav li a {
+  color: #333;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-nav li a:hover {
+  background-color: #e7e7e7;
+}
+
+/* Page Heading */
+h1 {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* Menu Content Boxes (Grey Sections) */
+.menu-item {
+  background-color: #a5a5a5;
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 30px;
+  min-height: 500px; /* Gives the section a tall, scrollable appearance */
+}
+
+.menu-item h3 {
+  margin-top: 0;
+  text-align: center;
+  font-weight: bold;
+}
