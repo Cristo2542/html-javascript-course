@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Assignment Solution for Module 3</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Mobile Dropdown Toggle Button -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- Brand Name (Aligned to Left) -->
+        <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+
+      <!-- Collapsable Menu Items (Visible only on mobile toggle) -->
+      <div class="collapse navbar-collapse" id="collapsable-nav">
+        <ul class="nav navbar-nav navbar-right visible-xs">
+          <li><a href="#chicken-section">Chicken</a></li>
+          <li><a href="#beef-section">Beef</a></li>
+          <li><a href="#sushi-section">Sushi</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <!-- Page Heading -->
+  <div class="container">
+    <h1 class="text-center">Our Menu</h1>
+
+    <!-- 
+      Row containing the 3 sections: Chicken, Beef, Sushi.
+      - Desktop view: col-md-4 (3 per row, equal width)
+      - Tablet view: col-sm-6 for Chicken & Beef, col-sm-12 (full width) for Sushi
+      - Mobile view: col-xs-12 (full width stacked)[cite: 5]
+    -->
+    <div class="row">
+      
+      <!-- Chicken Section -->
+      <div id="chicken-section" class="col-md-4 col-sm-6 col-xs-12">
+        <section class="menu-item">
+          <h3>Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="visible-xs"><a href="#_top">Back To Top</a></p>
+        </section>
+      </div>
+
+      <!-- Beef Section -->
+      <div id="beef-section" class="col-md-4 col-sm-6 col-xs-12">
+        <section class="menu-item">
+          <h3>Beef</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="visible-xs"><a href="#_top">Back To Top</a></p>
+        </section>
+      </div>
+
+      <!-- Sushi Section -->
+      <div id="beef-section" class="col-md-4 col-sm-12 col-xs-12">
+        <section class="menu-item">
+          <h3 id="sushi-section">Sushi</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p class="visible-xs"><a href="#_top">Back To Top</a></p>
+        </section>
+      </div>
+
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
